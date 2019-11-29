@@ -1,1 +1,16 @@
-@import "variabler";
+
+
+/* Nokia WiFi Stephanie */
+
+.bg-light {
+  background: none !important;
+
+  .logo {
+    width: 130px;
+    height: auto;
+  }
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
