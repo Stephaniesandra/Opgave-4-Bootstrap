@@ -1,11 +1,18 @@
 @import "variabler";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 
+$theme-colors: (
+        "primary": #0065ed,
+        "secondary": #124191,
+);
+
+$footercolor: #001235;
+$textcolor: #1d1e20;
+$hrcolor: rgba(0,0,0,0.2);
 
 
-
-
-
-
-/* Beacon 1 */
+h1, h2, h3, h4, h5, p{
+  font-family: NokiaPureHeadline,Arial,Helvetica,sans-serif;
+}
