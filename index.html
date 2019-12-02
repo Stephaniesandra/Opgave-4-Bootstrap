@@ -25,6 +25,9 @@
     <!-- Font -->
     <link rel="stylesheet" href="https://www.nokia.com/themes/custom/onenokia_base_theme/fonts/nokia/nokia_new_fonts.css" media="all">
 
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
 </head>
 
 <body>
@@ -34,12 +37,8 @@
         <img src="img/nokia.png" style="width: 90px" alt="logo">
     </a>
 
-    <button class="navbar-toggler border-0 bg-white" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
     <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto mr-auto justify-content-between" style="width: 500px;">
             <li class="nav-item">
                 <a href="#" class="nav-link">For forbrugerne</a>
             </li>
@@ -54,22 +53,31 @@
             </li>
         </ul>
     </div>
+
+    <div class="ml-auto" style="height: 30px;">
+        <i data-feather="message-square" class="border-secondary border-left px-2" style="height: 25px; width: 60px; color: #124191;"></i>
+        <i data-feather="search" class="border-left border-secondary border-right px-2" style="height: 25px; width: 60px; color: #124191;"></i>
+    </div>
+
+    <button class="border-0 bg-white mx-3" type="button" data-toggle="collapse" data-target="navbarContent">
+        <span class="navbar-toggler-icon" ></span>
+    </button>
 </nav>
 
 <section class="container-fluid container-xl">
     <div class="row justify-content-xl-between">
         <div class="col-12 col-xl-6 p-0 px-md-3 pr-xl-4">
-            <div class="row card-img-overlay align-content-center pl-4 ml-md-5 ml-xl-0 pl-xl-5">
-                <h2 class="col-12 p-0">Oplev en bedre mobil oplevelse</h2>
-                <button type="button" class="btn btn-light border-primary px-4 py-3 mt-4 text-secondary">Læs mere</button>
+            <div class="bannerfont row card-img-overlay align-content-center m-0 p-0 px-3 px-md-5 ml-md-5 ml-xl-0" style="max-width: 500px;">
+                <h2 class="bannerfont col-12 p-0 text-white" style="font-weight: 300; line-height: 1.35;">Oplev en bedre mobil oplevelse</h2>
+                <button type="button" class="btn btn-light border-primary mt-2" style="font-size: 13px; font-weight: 300; color: #0065ed; width: 184px; height: 54px;">Læs mere</button>
             </div>
             <img src="img/index-.png" class="img-fluid m-0 d-md-none d-xl-block" style="max-width: 100%; height: auto;" alt="forside">
             <img src="img/index-md.png" class="img-fluid m-0 d-none d-md-block d-xl-none" style="max-width: 100%; height: auto;" alt="forside">
         </div>
         <div class="col-12 col-xl-6 p-0 px-md-3 pl-xl-4 align-self-xl-end">
-            <div class="row card-img-overlay align-content-center pl-4 pl-xl-0 ml-md-5">
-                <h2 class="col-12 p-0">Få den bedste netværks- og <br> teknologiløsning i dag</h2>
-                <button type="button" class="btn btn-light border-primary px-4 py-3 mt-4 text-secondary">Start nu</button>
+            <div class="bannerfont row card-img-overlay align-content-center m-0 p-0 pl-3 pl-md-5 ml-md-5 ml-xl-0" style="max-width: 450px;">
+                <h2 class="bannerfont col-12 p-0 text-white" style="font-weight: 300; line-height: 1.35;">Få den bedste netværks- og teknologiløsning i dag</h2>
+                <button type="button" class="btn btn-light border-primary mt-2" style="font-size: 13px; font-weight: 300; color: #0065ed;  width: 184px; height: 54px;">Start nu</button>
             </div>
             <img src="img/indexblue-.jpg" class="img-fluid m-0 d-md-none d-xl-block" style="max-width: 100%; height: auto;" alt="forside">
             <img src="img/indexblue-md.jpg" class="img-fluid m-0 d-none d-md-block d-xl-none" style="max-width: 100%; height: auto;" alt="forside">
@@ -78,45 +86,49 @@
 </section>
 
 <article class="container-fluid container-xl">
-    <div class="row my-5">
-        <a href="#" class="col-12 col-md-4 text-dark pb-5 pb-md-0" style="text-decoration: none">
-            <img src="img/innovation.jpg" class="img-fluid m-0" style="max-width: 100%; height: auto;" alt="innovation">
-            <h3>Innovation</h3>
+    <div class="row mt-5 mb-md-5">
+        <a href="#" class="col-12 col-md-4 pb-5 pb-md-0" style="text-decoration: none; font-size: 17px; line-height: 1.5; font-weight: 300; color: #1d1e20">
+            <div class="articleblogs">
+                <img src="img/innovation.jpg" class="img-fluid m-0" style="max-width: 100%; height: auto;" alt="innovation">
+            </div>
+            <h3 class="text-primary pt-2" style="font-size: 17px; line-height: 1.5; font-weight: 300;">Innovation</h3>
             <p>Oplev løbende samarbejde og innovation på tværs af Nokia og mere</p>
         </a>
-        <a href="#" class="col-12 col-md-4 text-dark pb-5 pb-md-0" style="text-decoration: none">
-            <img src="img/weirdfam.jpg" class="img-fluid m-0" style="max-width: 100%; height: auto;" alt="innovation">
-            <h3>Novinky a události</h3>
+        <a href="#" class="col-12 col-md-4 pb-5 pb-md-0" style="text-decoration: none; font-size: 17px; line-height: 1.5; font-weight: 300; color: #1d1e20">
+            <div class="articleblogs">
+                <img src="img/weirdfam.jpg" class="img-fluid m-0" style="max-width: 100%; height: auto;" alt="Novinky a události">
+            </div>
+            <h3 class="text-primary pt-2" style="font-size: 17px; line-height: 1.5; font-weight: 300;">Novinky a události</h3>
             <p>Podívejte se na aktuální novinky a události ve společnosti Nokia</p>
         </a>
-        <a href="#" class="col-12 col-md-4 text-dark pb-5 pb-md-0" style="text-decoration: none">
-            <img src="img/blog.jpg" class="img-fluid m-0" style="max-width: 100%; height: auto;" alt="innovation">
-            <h3>Blog</h3>
+        <a href="#" class="col-12 col-md-4 pb-5 pb-md-0" style="text-decoration: none; font-size: 17px; line-height: 1.5; font-weight: 300; color: #1d1e20">
+            <div class="articleblogs">
+                <img src="img/blog.jpg" class="img-fluid m-0" style="max-width: 100%; height: auto;" alt="Blog">
+            </div>
+            <h3 class="text-primary pt-2" style="font-size: 17px; line-height: 1.5; font-weight: 300;">Blog</h3>
             <p>Deltag i diskussionen</p>
         </a>
     </div>
 </article>
 
 <aside class="container-fluid">
-    <div class="row justify-content-xl-between">
+    <div class="row">
         <div class="col-12 p-0">
-            <div class="row card-img-overlay align-content-center pl-4 ml-md-3 ml-xl-0 pl-xl-5">
-                <h2 class="col-12 p-0">Om Nokia</h2>
-                <button type="button" class="btn border-white px-4 py-3 mt-4 text-white">mere information</button>
+            <div class="row card-img-overlay align-content-center m-0 p-0 pl-3 pl-md-0 mx-md-auto" style="width: 1110px;">
+                <h2 class="col-12 p-0 text-white nokiaasidefont" style="font-weight: 300;">Om Nokia</h2>
+                <button type="button" class="btn border-white px-4 py-3 mt-4 text-white " style="font-size: 13px; width: 184px; height: 48px;">mere information</button>
             </div>
-            <img src="img/bygning.jpg" class="img-fluid m-0" style="max-width: 100%; height: auto;" alt="forside">
+            <img src="img/bygning.jpg" class="img-fluid m-0" style="width: 100vw; max-height: 500px; object-fit: cover; overflow: hidden" alt="forside">
         </div>
     </div>
 </aside>
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function (e) {
-        // Din kode her
-    });
+<script>
+    feather.replace()
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js/"></script>
 
 </body>
 </html>

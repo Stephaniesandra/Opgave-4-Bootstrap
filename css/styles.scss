@@ -16,3 +16,33 @@ $hrcolor: rgba(0,0,0,0.2);
 h1, h2, h3, h4, h5, p{
   font-family: NokiaPureHeadline,Arial,Helvetica,sans-serif;
 }
+
+/* Index */
+.bannerfont{
+  font-size: 22px;
+
+  @media screen and (min-width: 768px){
+    font-size: 40px;
+  }
+}
+
+.nokiaasidefont{
+  font-size: 26px;
+
+  @media screen and (min-width: 768px){
+    font-size: 50px;
+  }
+}
+
+.articleblogs {
+  overflow: hidden;
+}
+
+.articleblogs img:hover{
+  transform: scale(1.2);
+  transition: 300ms ease-in-out;
+  overflow: hidden;
+}
+
+
+
