@@ -78,7 +78,6 @@ h1, h2, h3, h4, h5, p{
     color: #1d1e20;
     font-size: 18px;
     line-height: 1.5;
-    font-family: "Calibri", Arial, sans-serif;
     font-weight: 300;
     margin-top: 25px;
   }
@@ -103,7 +102,7 @@ h1, h2, h3, h4, h5, p{
 
   }
 }
-.buttonline {
+.buttomline {
   border-bottom: 1px solid rgba(0,0,0,0.2);
   padding-bottom: 70px;
 }
@@ -128,3 +127,36 @@ h1, h2, h3, h4, h5, p{
   }
 }
 
+.under-img {
+  position: relative;
+  margin-top: -4vw;
+}
+.dlapp {
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+  p {
+    margin-top: 36px;
+    font-size: 17px;
+  }
+  .btns{
+    margin-bottom: 26px
+  }
+}
+.apartment {
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 1.333rem;
+  margin-top: 0;
+  p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: .833rem;
+    color: #1d1e20;
+    margin-top: 0;
+  }
+}
