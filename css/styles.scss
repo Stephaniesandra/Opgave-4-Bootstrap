@@ -63,3 +63,68 @@ h1, h2, h3, h4, h5, p{
 
 
 
+/* beacon 1 */
+
+
+.beacon1 {
+  h2 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 36px;
+    margin-top: 1rem;
+  }
+  p {
+    margin-bottom: 44px;
+    color: #1d1e20;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Calibri", Arial, sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+  }
+}
+.btn {
+  display: inline-block;
+  min-width: 186px;
+  padding: 9px 20px 9px;
+  border-radius: 3px;
+  border: solid 5px #0065ed;
+  background-color: #0065ed;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.54;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    transform:scale(1.1,1.1);
+    color: white;
+
+  }
+}
+.buttonline {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 70px;
+}
+.features {
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+  }
+  ul {
+    margin-left: .833rem;
+    margin-bottom: .833rem;
+    font-size: 17px;
+    padding-left: 9px;
+    font-weight: 300;
+    color: #6e6e6e;
+    li {
+      line-height: 2;
+    }
+  }
+}
+
