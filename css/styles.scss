@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, p{
 
 
 /* beacon 1 */
-
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 .beacon1 {
   h2 {
@@ -201,6 +201,9 @@ h1, h2, h3, h4, h5, p{
   background:#001235;
   color: white;
   .footer-inventory {
+    .footer-nokia-logo path {
+    fill: #fff;
+    }
     .kontaktinfo {
       .some {
         svg {
@@ -262,6 +265,7 @@ h1, h2, h3, h4, h5, p{
           color: #00c9ff;
         }
       }
+
     }
 
     .footer-menu {
