@@ -387,3 +387,68 @@ h1, h2, h3, h4, h5, p{
     left: 3%;
   }
 }
+
+
+/* Support og Terms and Privacy */
+.intro{
+    height: 248px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper{
+  max-width: 1146px;
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0 40px;
+
+  h2{
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  hr{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: calc(1.625rem - 1px);
+    background: rgba(0,0,0,0.2);
+    border: none;
+    height: 1px;
+  }
+
+  .lists{
+    padding-right: 50px;
+  }
+
+  .list-item{
+    padding: 18px 0 28px;
+
+    h4{
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      color: #0065ed;
+      font-weight: 300;
+      transition: 200ms ease;
+      cursor: pointer;
+
+      &:hover{
+        color: #052253;
+      }
+    }
+    p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: .833rem;
+    color: #1d1e20;
+    }
+  }
+}
